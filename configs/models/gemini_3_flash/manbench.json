@@ -1,0 +1,70 @@
+{
+  "schema_version": "manbench_balanced_return_gemini3flash_four_core_formal_v1",
+  "benchmark": "ManBench-Balanced-Return-Gemini3Flash-FourCore-ValidatedTransport",
+  "statistical_status": "formal_gemini_four_core_shared_candidate_pool_panel",
+  "protocol": "balanced_old_valid_old_stale_v1",
+  "departure_boundary": "after_agent1_baseline_correct_receipt",
+  "mas": {
+    "execution_contract": "five_task_agent_single_return_v1",
+    "task_agent_count": 5,
+    "returning_agent_id": "agent1",
+    "active_agent_ids": [
+      "agent2",
+      "agent3",
+      "agent4",
+      "agent5"
+    ],
+    "intra_episode_execution_mode": "deterministic_serial"
+  },
+  "dataset": {
+    "root": "data/manbench/bbh_all_small",
+    "source_repository": "https://github.com/bluedream02/Mandela-Effect",
+    "source_commit": "2688076944fb026cebc894c25f600627e325b8a8",
+    "dataset_sha256": "663c9dcd34c035b54a3f5a7cc6af56121d3c542d8a20ab267efe239efd70700d",
+    "expected_tasks": 20,
+    "expected_examples": 4838
+  },
+  "model": {
+    "api_base": "https://generativelanguage.googleapis.com/v1beta/openai",
+    "api_key_env": "GEMINI_API_KEY",
+    "served_model_id": "gemini-3-flash",
+    "model_timeout_seconds": 600,
+    "request_retries": 8,
+    "empty_content_retries": 5,
+    "omit_temperature": true,
+    "request_lock_path": "/dev/shm/gemini_return_actor_four_core.lock",
+    "forced_tool_fallback_mode": "validated_content_then_prompt_json"
+  },
+  "execution": {
+    "choice_index_wire_schema": "decimal_string_enum_v1",
+    "structured_output_transport": "forced_tool_then_schema_validated_content_then_prompt_json_v1",
+    "scenario_assignment": "within_task_position_parity",
+    "old_stale_revision": "within_task_sorted_successor_v1",
+    "scenario_aggregation": "equal_weight_macro_average",
+    "eligibility_contract": "departure_anchor_correct_and_old_stale_active_update_correct",
+    "gold_anchor_injection": false,
+    "gold_update_injection": false,
+    "shared_candidate_pool": true,
+    "fork_arms": [
+      "static",
+      "restore_old",
+      "reset",
+      "trace"
+    ],
+    "primary_metrics": [
+      "final_answer_accuracy",
+      "valid_information_availability",
+      "invalid_information_rejection",
+      "wrong_state_admission_rate"
+    ],
+    "verifier_confidence_threshold": 0.65,
+    "format_retries": 4,
+    "baseline_max_tokens": 256,
+    "social_max_tokens": 1024,
+    "verifier_max_tokens": 384,
+    "answer_max_tokens": 256,
+    "model_timeout_seconds": 600,
+    "model_retries": 8,
+    "cupmem_max_tokens": 1024
+  }
+}

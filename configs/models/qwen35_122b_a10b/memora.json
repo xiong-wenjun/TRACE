@@ -1,0 +1,81 @@
+{
+  "schema_version": "memora_trace_pareto_spec_v1",
+  "benchmark": "Memora",
+  "actor_model": "Qwen3.5-122B-A10B",
+  "judge_model": "gpt-5.6-sol",
+  "departure_fraction": 0.5,
+  "seed": 731,
+  "split_unit": "persona_period_cluster",
+  "dev_clusters": 10,
+  "test_clusters": 20,
+  "default_setting": "budget_b12_h16_c045",
+  "selection_rule": "default_plus_trace_presence_extreme_forgetting_extreme_knee",
+  "selection_limit": 4,
+  "stale_state_policy": "hard_filter_not_swept",
+  "settings": [
+    {
+      "name": "budget_b08_h10_c045",
+      "families": [
+        "budget"
+      ],
+      "base_selected_facts": 8,
+      "max_selected_facts": 10,
+      "minimum_confidence": 0.45
+    },
+    {
+      "name": "budget_b10_h12_c045",
+      "families": [
+        "budget"
+      ],
+      "base_selected_facts": 10,
+      "max_selected_facts": 12,
+      "minimum_confidence": 0.45
+    },
+    {
+      "name": "budget_b12_h14_c045",
+      "families": [
+        "budget"
+      ],
+      "base_selected_facts": 12,
+      "max_selected_facts": 14,
+      "minimum_confidence": 0.45
+    },
+    {
+      "name": "budget_b12_h16_c045",
+      "families": [
+        "budget",
+        "confidence"
+      ],
+      "base_selected_facts": 12,
+      "max_selected_facts": 16,
+      "minimum_confidence": 0.45
+    },
+    {
+      "name": "budget_b14_h18_c045",
+      "families": [
+        "budget"
+      ],
+      "base_selected_facts": 14,
+      "max_selected_facts": 18,
+      "minimum_confidence": 0.45
+    },
+    {
+      "name": "confidence_b12_h16_c055",
+      "families": [
+        "confidence"
+      ],
+      "base_selected_facts": 12,
+      "max_selected_facts": 16,
+      "minimum_confidence": 0.55
+    },
+    {
+      "name": "confidence_b12_h16_c065",
+      "families": [
+        "confidence"
+      ],
+      "base_selected_facts": 12,
+      "max_selected_facts": 16,
+      "minimum_confidence": 0.65
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "repository": "https://huggingface.co/datasets/STALEproj/STALE",
+  "revision": "617c51dc200b5ab09970834144c7e51c77959af0",
+  "download_kind": "files",
+  "file_base_url": "https://huggingface.co/datasets/STALEproj/STALE/resolve/617c51dc200b5ab09970834144c7e51c77959af0",
+  "license": "CC-BY-4.0",
+  "additional_notice": "LongMemEval_LICENSE",
+  "description": "Unmodified official T1/T2 data; TRACE selects the T2 records at evaluation time."
+}

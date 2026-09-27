@@ -1,0 +1,60 @@
+{
+  "schema_version": "manbench_disputed_return_backend_qwen_formal_full_v3",
+  "benchmark": "ManBench-Disputed-Return",
+  "statistical_status": "formal_full_panel",
+  "protocol": "role_based_long_term_return_adaptation",
+  "departure_boundary": "after_agent1_baseline_correct_receipt",
+  "mas": {
+    "execution_contract": "five_task_agent_single_return_v1",
+    "task_agent_count": 5,
+    "returning_agent_id": "agent1",
+    "active_agent_ids": [
+      "agent2",
+      "agent3",
+      "agent4",
+      "agent5"
+    ],
+    "intra_episode_execution_mode": "deterministic_serial"
+  },
+  "dataset": {
+    "root": "data/manbench/bbh_all_small",
+    "source_repository": "https://github.com/bluedream02/Mandela-Effect",
+    "source_commit": "2688076944fb026cebc894c25f600627e325b8a8",
+    "dataset_sha256": "663c9dcd34c035b54a3f5a7cc6af56121d3c542d8a20ab267efe239efd70700d",
+    "expected_tasks": 20,
+    "expected_examples": 4838
+  },
+  "model": {
+    "api_base": "https://dashscope-us.aliyuncs.com/compatible-mode/v1",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "served_model_id": "Qwen3.5-122B-A10B",
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "model_timeout_seconds": 600,
+    "request_retries": 5
+  },
+  "execution": {
+    "eligibility_contract": "agent1_baseline_correct_only",
+    "gold_anchor_injection": false,
+    "fork_arms": [
+      "reset",
+      "restore_old",
+      "static",
+      "trace"
+    ],
+    "primary_metrics": [
+      "final_answer_accuracy",
+      "wrong_state_admission_rate",
+      "correct_memory_preservation"
+    ],
+    "verifier_confidence_threshold": 0.65,
+    "format_retries": 1,
+    "baseline_max_tokens": 96,
+    "social_max_tokens": 700,
+    "verifier_max_tokens": 160,
+    "answer_max_tokens": 96,
+    "model_timeout_seconds": 600,
+    "model_retries": 5
+  }
+}

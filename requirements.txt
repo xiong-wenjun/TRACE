@@ -1,0 +1,2 @@
+# Install the package and dependencies for the standard benchmark runners.
+-e .[dev,cupmem,figures]

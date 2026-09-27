@@ -1,0 +1,1033 @@
+{
+  "basis": "old_session_index_empirical_tertiles",
+  "buckets": {
+    "early": {
+      "inclusive_range": [
+        0,
+        4
+      ],
+      "records": [
+        {
+          "new_session_index": 36,
+          "old_session_index": 4,
+          "uid": "feef3933-9375-4fa2-ba80-ae65963e7466"
+        },
+        {
+          "new_session_index": 39,
+          "old_session_index": 2,
+          "uid": "af880933-e948-4965-b148-bdc6eeb46dee"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 3,
+          "uid": "28a79760-46a6-4a4d-8942-156c9559309f"
+        },
+        {
+          "new_session_index": 38,
+          "old_session_index": 1,
+          "uid": "dafb876f-f85e-4d8b-8522-71a4bbd5a492"
+        },
+        {
+          "new_session_index": 39,
+          "old_session_index": 2,
+          "uid": "ee358975-55fe-4095-8cec-277088c096fd"
+        },
+        {
+          "new_session_index": 31,
+          "old_session_index": 2,
+          "uid": "8e292729-a8c9-4316-a8e8-9a5ee3d9a3e4"
+        },
+        {
+          "new_session_index": 39,
+          "old_session_index": 2,
+          "uid": "cddef666-7d85-4ad7-9f1c-de5c2fd0c604"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 4,
+          "uid": "830a2e06-981f-411c-bef0-99ec4190fbfa"
+        },
+        {
+          "new_session_index": 31,
+          "old_session_index": 0,
+          "uid": "fbe6fd55-81fc-477e-a75f-04f12e67f004"
+        },
+        {
+          "new_session_index": 31,
+          "old_session_index": 2,
+          "uid": "779e5fe0-3964-4078-9f51-093d75f75dae"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 4,
+          "uid": "94f25542-0d99-4b36-9915-22ff163b3f50"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 4,
+          "uid": "60604200-1c82-43a8-9613-b4f2efdd514a"
+        },
+        {
+          "new_session_index": 30,
+          "old_session_index": 0,
+          "uid": "321e33b5-d60b-45d4-93b3-8439b4afbb7a"
+        },
+        {
+          "new_session_index": 39,
+          "old_session_index": 3,
+          "uid": "ab299b40-fe15-461b-b5ed-49a420a90701"
+        },
+        {
+          "new_session_index": 38,
+          "old_session_index": 0,
+          "uid": "3f1e9264-db8e-4945-bfaf-02715463cdda"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 1,
+          "uid": "06071a3e-6ac8-41cc-8138-6db403c7b42d"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 3,
+          "uid": "b1412dfd-17da-4195-9966-74f1ed76f3b1"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 3,
+          "uid": "40c9060e-bfab-4867-9c40-48f194758333"
+        },
+        {
+          "new_session_index": 31,
+          "old_session_index": 3,
+          "uid": "11e0c473-dbd3-4645-964a-86affc5f998d"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 0,
+          "uid": "ebdf7090-0a54-4bf2-89f1-3a4f5a4ee420"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 1,
+          "uid": "4ad50bc6-b80e-4454-beab-b1d91bc7b743"
+        },
+        {
+          "new_session_index": 39,
+          "old_session_index": 1,
+          "uid": "bfe30117-6aea-4b58-8010-91ee20aed9b7"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 1,
+          "uid": "519bfeec-3c76-445a-95a3-96fa3984697e"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 4,
+          "uid": "351bc276-a641-41dd-afd4-eaf147601b4b"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 3,
+          "uid": "4d34b519-6633-4e87-b67e-040d8a4b012d"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 1,
+          "uid": "a2a3e641-a144-4032-9982-f2362f433690"
+        },
+        {
+          "new_session_index": 31,
+          "old_session_index": 2,
+          "uid": "c2cc2d39-db0d-460e-9dbf-0203fc5a001f"
+        },
+        {
+          "new_session_index": 31,
+          "old_session_index": 4,
+          "uid": "424f376b-72e1-4535-82d6-59f5f3607253"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 3,
+          "uid": "5ae24023-75e4-4541-8c50-99d742c43ee6"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 2,
+          "uid": "27a52329-52de-41b3-8063-893c484c5803"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 3,
+          "uid": "2c711459-bd7e-489a-8284-9d896d6a51d6"
+        },
+        {
+          "new_session_index": 31,
+          "old_session_index": 0,
+          "uid": "f694e016-df83-4ffa-bc6e-77b51ab2af18"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 0,
+          "uid": "ed2ab471-f1e7-4f43-8d7f-c41c6f25d0a5"
+        },
+        {
+          "new_session_index": 35,
+          "old_session_index": 1,
+          "uid": "71569d71-a6b9-4cce-9ee5-010a8b95e82c"
+        },
+        {
+          "new_session_index": 38,
+          "old_session_index": 4,
+          "uid": "a43bf517-6c49-4433-8468-463b49aa83cf"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 3,
+          "uid": "b58224e8-1c5c-49f5-a836-ab9a5e0a0164"
+        },
+        {
+          "new_session_index": 39,
+          "old_session_index": 0,
+          "uid": "855155ad-b03b-4b21-b336-1a3e8334acaa"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 0,
+          "uid": "8342feca-4e01-49ac-a82a-831e2cde4932"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 2,
+          "uid": "d590439d-f8cd-4f70-8040-ffc1ff1a231e"
+        },
+        {
+          "new_session_index": 30,
+          "old_session_index": 0,
+          "uid": "8ce21327-dd16-4026-b634-fd98c3864618"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 0,
+          "uid": "f57f6037-c95a-40ef-a7ab-6f5b396ba927"
+        },
+        {
+          "new_session_index": 35,
+          "old_session_index": 4,
+          "uid": "0c348e44-7f55-4d95-aeb7-137f801985d7"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 2,
+          "uid": "9fbea962-6476-4330-85e8-e891ec63c9c4"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 1,
+          "uid": "1469bde3-6c26-41c4-bd02-fe6e57463b28"
+        },
+        {
+          "new_session_index": 39,
+          "old_session_index": 0,
+          "uid": "7cf6d4c0-0201-46c2-9bcf-2cc7eb3d0c32"
+        },
+        {
+          "new_session_index": 30,
+          "old_session_index": 1,
+          "uid": "f75a2f13-6e3c-496a-b768-5aeaa6c11e27"
+        },
+        {
+          "new_session_index": 38,
+          "old_session_index": 4,
+          "uid": "376e7339-7dd5-4a26-9c5c-ab9ca9f34c88"
+        },
+        {
+          "new_session_index": 30,
+          "old_session_index": 1,
+          "uid": "ff4ad8e1-aba5-485b-ac9c-1b21fbff2520"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 1,
+          "uid": "97de2906-3171-4a08-8c96-9c0cbb15cc92"
+        },
+        {
+          "new_session_index": 31,
+          "old_session_index": 0,
+          "uid": "8d21e02f-37b9-49c8-9561-1c28ed677c71"
+        },
+        {
+          "new_session_index": 35,
+          "old_session_index": 1,
+          "uid": "6a52e0a1-1149-49f1-ba2a-2c99258970f0"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 1,
+          "uid": "e779f96c-fa7b-4e17-b16a-ed36f677205a"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 0,
+          "uid": "3a2f58bb-37f0-440f-8675-ce5fe19425d8"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 4,
+          "uid": "e0200873-f788-4c31-8744-d5ac06d2e8f6"
+        },
+        {
+          "new_session_index": 31,
+          "old_session_index": 1,
+          "uid": "7b28c0db-c4af-45a1-b72c-76d6b1127563"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 4,
+          "uid": "50c76721-3605-4d34-a6bf-e8e6d4cb52dc"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 2,
+          "uid": "97ab20e5-7030-42e8-bbc0-8f5210d444f6"
+        },
+        {
+          "new_session_index": 35,
+          "old_session_index": 2,
+          "uid": "c9cc370e-baf1-4287-9795-893cac6dcbd2"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 1,
+          "uid": "cb1efefb-6d80-4d8c-9cf1-5aa56950bcd0"
+        },
+        {
+          "new_session_index": 39,
+          "old_session_index": 3,
+          "uid": "85ee1281-cede-499d-b7ce-0de51a68fb16"
+        },
+        {
+          "new_session_index": 35,
+          "old_session_index": 4,
+          "uid": "3d2e275b-3782-4149-8940-c631b7b9b355"
+        },
+        {
+          "new_session_index": 38,
+          "old_session_index": 0,
+          "uid": "9e08b7c9-3853-4b3c-b886-31acd91be62f"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 4,
+          "uid": "4235a23c-8f3f-46b7-912b-003536cd435b"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 3,
+          "uid": "39bb477c-c3c4-4f4d-956d-8765afa4ed93"
+        }
+      ]
+    },
+    "late": {
+      "inclusive_range": [
+        10,
+        14
+      ],
+      "records": [
+        {
+          "new_session_index": 35,
+          "old_session_index": 13,
+          "uid": "21e80966-ebd5-4e68-a606-bfd945b19f84"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 14,
+          "uid": "5e995eb5-9903-487d-a195-836be28471a4"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 14,
+          "uid": "cb5cc930-5397-4800-b32b-9777f43737f9"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 11,
+          "uid": "ea1bd523-f9f9-4ee0-89ed-08f407cc3237"
+        },
+        {
+          "new_session_index": 30,
+          "old_session_index": 12,
+          "uid": "309111b3-4d14-46e4-bffd-3841e033a9bf"
+        },
+        {
+          "new_session_index": 38,
+          "old_session_index": 14,
+          "uid": "ff18fa96-7612-44dd-9e4f-e47b1edc8699"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 13,
+          "uid": "26910318-c4ce-431f-8b6f-8eaad3ffd8b8"
+        },
+        {
+          "new_session_index": 30,
+          "old_session_index": 13,
+          "uid": "a0ecb191-6305-43e0-b900-39bae2bfc420"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 14,
+          "uid": "87ea8043-b122-497b-8213-872e0fcbdee1"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 13,
+          "uid": "d31a1e17-886e-4d2f-a3e3-ecbd9e76806b"
+        },
+        {
+          "new_session_index": 31,
+          "old_session_index": 12,
+          "uid": "546d39d6-ee7f-4cef-b457-a2f944d2543c"
+        },
+        {
+          "new_session_index": 39,
+          "old_session_index": 12,
+          "uid": "fd996967-fd3a-4d26-b577-2615ba048a5c"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 12,
+          "uid": "68f30210-15b0-4dcb-b381-a51523b6175a"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 11,
+          "uid": "5a4781fe-a27c-4b38-a611-e7f9a262d712"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 11,
+          "uid": "ba60203c-808b-4ab3-85b4-4200ec27c90c"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 10,
+          "uid": "47911ef2-a067-4c92-acc0-fe0de42666d9"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 12,
+          "uid": "91c27781-fbf7-4ca6-8eca-eb4f5d07992f"
+        },
+        {
+          "new_session_index": 39,
+          "old_session_index": 11,
+          "uid": "adfaf05e-8cc4-4c99-b08f-0e8f8a415100"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 12,
+          "uid": "67868464-6e0d-48f3-83a0-46b8e6ca801b"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 13,
+          "uid": "60a2b98c-492d-45e5-9956-2b850493f8b4"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 10,
+          "uid": "53820308-c64e-4e45-a79f-b726be2e4fd7"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 13,
+          "uid": "b0c05946-b256-4fed-8f18-e343e008a926"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 13,
+          "uid": "67eeb06a-3d17-421b-8845-270129a07caf"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 13,
+          "uid": "7af59b23-a666-41f7-91ce-af8d524ed035"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 14,
+          "uid": "aee02e68-2b1a-4c3c-adad-2ec30a155794"
+        },
+        {
+          "new_session_index": 38,
+          "old_session_index": 12,
+          "uid": "ebe2f80e-c957-4492-8972-f8cb2aa1596e"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 11,
+          "uid": "41675fcc-d49a-42b8-82da-e21087e6c08e"
+        },
+        {
+          "new_session_index": 35,
+          "old_session_index": 10,
+          "uid": "5e097b13-80d7-4e8c-849d-26078a60115c"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 11,
+          "uid": "e48c9b37-b1f5-471c-a028-941c3788464f"
+        },
+        {
+          "new_session_index": 30,
+          "old_session_index": 12,
+          "uid": "ef90c67e-0d5c-41e7-a26e-1ab6323f0f55"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 11,
+          "uid": "44bec753-358e-4abb-8dbc-af8f13d744c1"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 14,
+          "uid": "f50107f1-364f-4c07-bdd6-bf144c6da875"
+        },
+        {
+          "new_session_index": 35,
+          "old_session_index": 11,
+          "uid": "6e7d926b-a559-42fd-8a61-5cc3a93d420e"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 14,
+          "uid": "d806d94c-7515-4019-ac26-2da5d329291e"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 12,
+          "uid": "6f69a06e-01a9-442e-927b-70f40d6cc8f3"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 11,
+          "uid": "77c54d90-05af-4a6b-b92d-cf520c04d3f4"
+        },
+        {
+          "new_session_index": 39,
+          "old_session_index": 11,
+          "uid": "3fc46718-6a54-4c67-8b01-9035c6ffef58"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 13,
+          "uid": "468132d0-0bfc-4d1d-ad65-9fb2c86d24e9"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 12,
+          "uid": "5664f83c-4552-475f-8650-e1b3e024a87f"
+        },
+        {
+          "new_session_index": 38,
+          "old_session_index": 12,
+          "uid": "2d92d1c2-6ed8-4777-bde5-225ae1a69197"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 14,
+          "uid": "009b7c99-b777-465a-bc3a-77f2d88c1318"
+        },
+        {
+          "new_session_index": 38,
+          "old_session_index": 11,
+          "uid": "51618f4e-b782-41ee-911e-38db6e359d68"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 11,
+          "uid": "9bfd449b-a693-4096-9235-8602bd1f136e"
+        },
+        {
+          "new_session_index": 35,
+          "old_session_index": 13,
+          "uid": "9364e0ec-fbd3-499f-afb8-72061bc92cc1"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 13,
+          "uid": "0a5d90e4-a8c1-4929-81c6-acd553069f50"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 12,
+          "uid": "f29f1b21-a6a5-445a-b838-cb1b64dc340e"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 13,
+          "uid": "d586678b-29de-4aae-82fd-7dec44fde9ec"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 11,
+          "uid": "eccf2a73-c841-43eb-98a1-1fc5325a2946"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 14,
+          "uid": "3a9bfd68-7b8a-418a-ab93-50ace62512c4"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 10,
+          "uid": "c4b573c1-0ea6-4edd-a400-c2a86907538b"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 14,
+          "uid": "81a87a6e-c9b3-403b-971e-132b8388a983"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 11,
+          "uid": "d276e35f-26c2-423e-8f86-3eb46684af14"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 13,
+          "uid": "0f806fbb-d8e6-4791-bcbf-2230e70877cc"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 10,
+          "uid": "7b568b27-c87a-4a93-9596-e65478544681"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 13,
+          "uid": "772e38fb-f478-4838-a9f0-d0d533e8a607"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 10,
+          "uid": "b5d5e6aa-9eb4-4adf-9d89-4a3638d6160f"
+        },
+        {
+          "new_session_index": 38,
+          "old_session_index": 10,
+          "uid": "463b4ca9-a781-49fa-b831-e36d61f11b58"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 10,
+          "uid": "14ed299f-bf3b-45b3-bf7f-8265adebbd87"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 11,
+          "uid": "12067a86-6627-437f-8435-57d566c17aa0"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 12,
+          "uid": "cffcf125-fd02-4392-b10d-6b38911a1714"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 12,
+          "uid": "48707e03-300e-4835-afe4-ae24edb26e18"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 11,
+          "uid": "ad1a2bf1-cb42-4745-b64f-93abbda9ec76"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 14,
+          "uid": "2bd27aa4-9863-4f30-b003-6eac397c4f2f"
+        },
+        {
+          "new_session_index": 35,
+          "old_session_index": 12,
+          "uid": "a4e2c089-5e29-42d7-a0d4-0c23aa3cdfff"
+        },
+        {
+          "new_session_index": 31,
+          "old_session_index": 13,
+          "uid": "3faa99df-d5af-4297-be60-c0faf1ec1df5"
+        },
+        {
+          "new_session_index": 30,
+          "old_session_index": 11,
+          "uid": "600981f7-16a5-40a6-822f-59a1b40ed7e1"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 10,
+          "uid": "843b3ce8-012e-4ad4-8e60-339f75c28f56"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 11,
+          "uid": "86af6829-6b91-43c0-81b7-e7b5decfcfe1"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 10,
+          "uid": "ec3746de-28fd-4eb0-8969-150377699d39"
+        },
+        {
+          "new_session_index": 30,
+          "old_session_index": 13,
+          "uid": "50ebe545-201b-486b-8c60-9792f9672204"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 13,
+          "uid": "2f5fe3ea-907a-4267-9ef2-73e779f4811b"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 10,
+          "uid": "c03f7b53-b56b-4544-a486-a5b36ffc3e65"
+        }
+      ]
+    },
+    "middle": {
+      "inclusive_range": [
+        5,
+        9
+      ],
+      "records": [
+        {
+          "new_session_index": 35,
+          "old_session_index": 9,
+          "uid": "704cac18-885e-4437-b136-a7600650ba01"
+        },
+        {
+          "new_session_index": 38,
+          "old_session_index": 9,
+          "uid": "a6c5e096-ce2c-459a-8047-bc2a3ae5526a"
+        },
+        {
+          "new_session_index": 35,
+          "old_session_index": 7,
+          "uid": "50a64d0c-a3a5-45c1-90ab-80a465ff58e9"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 5,
+          "uid": "fb5ebe60-626d-48e0-86d6-3640db53d3b4"
+        },
+        {
+          "new_session_index": 39,
+          "old_session_index": 5,
+          "uid": "9722a36c-422e-4998-acf5-d79691d6938b"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 7,
+          "uid": "a96178b7-620b-4598-9509-4a099d457e28"
+        },
+        {
+          "new_session_index": 35,
+          "old_session_index": 7,
+          "uid": "28daa975-4449-453f-aea0-1e3fd7071f83"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 5,
+          "uid": "a993468d-4156-4b9f-a777-795915e3303a"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 9,
+          "uid": "c8621836-5b2e-4b62-beea-5c8a1607233b"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 7,
+          "uid": "146c7972-3cf6-4a2f-b5d4-544963a58ed2"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 9,
+          "uid": "14897e47-7d90-4cb0-a991-3da0564052e6"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 9,
+          "uid": "7eb14667-01b3-4804-8273-37b73c1dc0ae"
+        },
+        {
+          "new_session_index": 30,
+          "old_session_index": 9,
+          "uid": "66e34cad-db2b-4aaa-b42d-b587d651c6db"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 8,
+          "uid": "dfcebf71-369f-42ac-acb1-619d2b788b32"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 5,
+          "uid": "36da4cf0-035a-41fc-aae1-5080fe2e2460"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 5,
+          "uid": "cf25e575-4665-447a-ab58-e464af6e6d2d"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 9,
+          "uid": "d3c59ab0-2a83-4bb0-bd96-6c84f13356c2"
+        },
+        {
+          "new_session_index": 31,
+          "old_session_index": 9,
+          "uid": "52be06ba-1a79-420d-81a5-957e9864dc15"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 8,
+          "uid": "19bb9fc3-a962-4055-bf8f-e3b194fcf7d3"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 5,
+          "uid": "27a08f2c-1b36-4da7-8c34-61ed21529b20"
+        },
+        {
+          "new_session_index": 38,
+          "old_session_index": 5,
+          "uid": "8e80e20e-2262-4d9d-9969-230130d63e3a"
+        },
+        {
+          "new_session_index": 39,
+          "old_session_index": 7,
+          "uid": "2262fbca-f683-4886-92b8-e70b14c5d275"
+        },
+        {
+          "new_session_index": 38,
+          "old_session_index": 9,
+          "uid": "5a03c894-ccac-45e5-a8d0-2b8cb6f33ed4"
+        },
+        {
+          "new_session_index": 38,
+          "old_session_index": 6,
+          "uid": "473ffdfd-3e2d-4ed8-af84-d1bf02ac8e8e"
+        },
+        {
+          "new_session_index": 30,
+          "old_session_index": 6,
+          "uid": "0fcd704e-7b09-4580-87ad-07604828cd40"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 6,
+          "uid": "993152aa-689d-4a5b-b4dc-6d8a4c3ce950"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 6,
+          "uid": "da38532d-2725-4837-9cd8-f346f027074f"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 9,
+          "uid": "88372703-016c-4714-bd58-786f76919a8b"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 6,
+          "uid": "eda4a6c5-47eb-489c-ad47-35a533f23acb"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 5,
+          "uid": "6206e3a3-ecb4-4777-8737-5aba73a1f5ad"
+        },
+        {
+          "new_session_index": 39,
+          "old_session_index": 9,
+          "uid": "05fc9783-f06c-453f-8899-15253d63533a"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 8,
+          "uid": "d88ae635-0e7c-416e-b893-c16525d23a4f"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 9,
+          "uid": "e1e8541d-5f3d-4614-b0bb-549b3ac7bfe3"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 7,
+          "uid": "36d4a45d-833a-4f1b-a3bf-4f47a729eba0"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 5,
+          "uid": "10fdfd0c-9ccd-478f-b0d0-2a1977cdc705"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 5,
+          "uid": "012f090e-6e02-4751-955d-574745069df3"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 7,
+          "uid": "3e3af301-8b9c-4b60-95e2-00db8a4b0f5a"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 5,
+          "uid": "f57e6cfd-16a4-47b8-ab87-1b50838580e9"
+        },
+        {
+          "new_session_index": 38,
+          "old_session_index": 6,
+          "uid": "cf907b07-be24-4415-bff3-6bb9b476f403"
+        },
+        {
+          "new_session_index": 38,
+          "old_session_index": 5,
+          "uid": "16763588-459c-4dca-95ec-f7ff02c5a940"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 8,
+          "uid": "9f814b29-e5f7-4fbb-9992-534f4830c2a8"
+        },
+        {
+          "new_session_index": 35,
+          "old_session_index": 8,
+          "uid": "6a359ec1-7c88-47af-9f5c-2e99d6bba006"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 5,
+          "uid": "1503dba8-2831-40b9-8628-15c81655250d"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 5,
+          "uid": "2929006d-0fac-40b6-a2d2-1bcbbf08ed41"
+        },
+        {
+          "new_session_index": 39,
+          "old_session_index": 6,
+          "uid": "fe30e744-682c-4beb-80f5-47c9bc811483"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 5,
+          "uid": "38c1f987-defc-43b4-a3c9-9d8bf4daa592"
+        },
+        {
+          "new_session_index": 35,
+          "old_session_index": 9,
+          "uid": "53d876a2-e3a6-4107-848d-467a5ea117fd"
+        },
+        {
+          "new_session_index": 39,
+          "old_session_index": 6,
+          "uid": "cfe2eeab-b80b-462a-afc8-498a1a81d6d3"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 9,
+          "uid": "ef4af969-d7b1-447a-8bc8-378b933fef3a"
+        },
+        {
+          "new_session_index": 31,
+          "old_session_index": 9,
+          "uid": "d13024ef-6ad0-479e-be40-655e7f334ddc"
+        },
+        {
+          "new_session_index": 34,
+          "old_session_index": 9,
+          "uid": "5372c535-c9f2-46d5-b4eb-ed35dc567864"
+        },
+        {
+          "new_session_index": 30,
+          "old_session_index": 9,
+          "uid": "32b85dfc-b6c1-44b8-b3bc-58f2f1031f90"
+        },
+        {
+          "new_session_index": 30,
+          "old_session_index": 7,
+          "uid": "84d0bb8e-5f94-4a47-9f2f-378d92f1cf56"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 8,
+          "uid": "bedf3942-456f-443e-8d28-c04d8414e12a"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 6,
+          "uid": "d95bea82-65f4-4ea6-bb53-ca3888cb0e5c"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 9,
+          "uid": "9a9065fc-13ee-411a-92c7-2968d7c26a0b"
+        },
+        {
+          "new_session_index": 36,
+          "old_session_index": 7,
+          "uid": "f36dbaa1-4c46-476c-bd20-655939bce3b2"
+        },
+        {
+          "new_session_index": 38,
+          "old_session_index": 8,
+          "uid": "f64207c3-c9f9-49d2-a304-39f4a0a7ec1e"
+        },
+        {
+          "new_session_index": 33,
+          "old_session_index": 5,
+          "uid": "f42cf11f-3e7d-47e8-821f-a8bdb602ae7c"
+        },
+        {
+          "new_session_index": 31,
+          "old_session_index": 7,
+          "uid": "ea9f1298-5dab-46f2-a492-0c5bb69b6465"
+        },
+        {
+          "new_session_index": 31,
+          "old_session_index": 9,
+          "uid": "b0c69000-8882-4f9e-8f05-0e2ab00647f6"
+        },
+        {
+          "new_session_index": 38,
+          "old_session_index": 8,
+          "uid": "aa06d2ff-5d2c-489d-a093-686d565ffde2"
+        },
+        {
+          "new_session_index": 37,
+          "old_session_index": 8,
+          "uid": "9a68c380-2e9d-4057-90c3-6796826eded1"
+        },
+        {
+          "new_session_index": 32,
+          "old_session_index": 7,
+          "uid": "9bf9ff72-5c6e-4d73-b592-81b3ead58372"
+        }
+      ]
+    }
+  },
+  "manifest_sha256": "6a420beeb9998038203318ce488f41d8850e859eb193839c9adf3deee391ff67",
+  "official_records_modified": false,
+  "schema_version": "stale_type2_natural_departure_buckets_v1",
+  "session_count": 50
+}

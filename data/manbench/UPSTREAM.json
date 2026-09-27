@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/bluedream02/Mandela-Effect",
+  "revision": "2688076944fb026cebc894c25f600627e325b8a8",
+  "download_kind": "bundled",
+  "license": "MIT",
+  "upstream_data_path": "data/bbh_all_small",
+  "description": "Twenty upstream task files used by the TRACE ManBench-Return adapter."
+}

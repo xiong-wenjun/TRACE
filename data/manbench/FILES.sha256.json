@@ -1,0 +1,107 @@
+[
+  {
+    "path": "LICENSE.upstream",
+    "bytes": 1064,
+    "sha256": "be2f6d4b3659dcfae8497cc84d4cb3cb79c111c3bef9c4e2c3d038c4e4eb3ea6"
+  },
+  {
+    "path": "bbh_all_small/anachronisms/val_data.json",
+    "bytes": 132220,
+    "sha256": "9d8815d5356c8a5514aa2f0a51fda81bc66a3e966b1e22faab9d5d1ff888b146"
+  },
+  {
+    "path": "bbh_all_small/auto_categorization/val_data.json",
+    "bytes": 228772,
+    "sha256": "c6ad7cc8d8b6a3afedd4dd916513aa9d0f088719969dea9ee72db8eef1e92fbd"
+  },
+  {
+    "path": "bbh_all_small/causal_judgment/val_data.json",
+    "bytes": 435090,
+    "sha256": "61f04ed10a3f55df8cd2bf1e03c348a4a116ae0c8438610f848a252d4a460992"
+  },
+  {
+    "path": "bbh_all_small/disambiguation_qa/val_data.json",
+    "bytes": 211426,
+    "sha256": "632ad7019186c50374bd1afbffe3795e31a958c04cdd68a12e6a58bb49f48372"
+  },
+  {
+    "path": "bbh_all_small/dyck_languages/val_data.json",
+    "bytes": 184790,
+    "sha256": "b1f34172d11e9185e778ba0b17d75b379f9abd5ac3dc5122ebbe75fe9d6b2a6d"
+  },
+  {
+    "path": "bbh_all_small/empirical_judgments/val_data.json",
+    "bytes": 59750,
+    "sha256": "b5d1dbdf7ce3996f1572bb58595263bed1258a9c263c02e0cf8a4ffb4eec3e72"
+  },
+  {
+    "path": "bbh_all_small/epistemic_reasoning/val_data.json",
+    "bytes": 282982,
+    "sha256": "f06430435508df748f92fa204b41b0e7f0f5783fc83a308982ee5dfdb70af045"
+  },
+  {
+    "path": "bbh_all_small/general_knowledge/val_data.json",
+    "bytes": 44658,
+    "sha256": "c99dfbe2b0b74abf60f2c52370cdf14ad9221a56a5eb5d8bc52672639b34b26a"
+  },
+  {
+    "path": "bbh_all_small/international_phonetic_alphabet_nli/val_data.json",
+    "bytes": 130699,
+    "sha256": "81d5a849a42a4c6ea21dc39c46571c483ff3bd878add66b526c53a114afc1321"
+  },
+  {
+    "path": "bbh_all_small/known_unknowns/val_data.json",
+    "bytes": 26688,
+    "sha256": "a46ae65a37550f5da695c0ca036eb0408ab3f9067a017ba63079701971fcb51d"
+  },
+  {
+    "path": "bbh_all_small/language_identification/val_data.json",
+    "bytes": 300835,
+    "sha256": "e6b832d78cbb401c6837b0ccea5e80b0f0ba1843baca2497d60c5379a31e651c"
+  },
+  {
+    "path": "bbh_all_small/misconceptions/val_data.json",
+    "bytes": 123731,
+    "sha256": "a3703bf99abeb3a2be9f573b82dd574471a10c0e8ea9c05522a05d590098e6aa"
+  },
+  {
+    "path": "bbh_all_small/movie_recommendation/val_data.json",
+    "bytes": 257250,
+    "sha256": "7819c8cb9449d62f5d2fc2b42ad902a78b2b8bfa8225f7aacb60e3f6e1f2c1d4"
+  },
+  {
+    "path": "bbh_all_small/presuppositions_as_nli/val_data.json",
+    "bytes": 358646,
+    "sha256": "6f57a8476500d55829e95627c4a887007e347c4cd49eb3534064b4cca58934e6"
+  },
+  {
+    "path": "bbh_all_small/qa_wikidata/val_data.json",
+    "bytes": 163606,
+    "sha256": "f782b9c69185204dd70bcdfbd25abb4e88df0ba1c099c530a992312b4b4a5f84"
+  },
+  {
+    "path": "bbh_all_small/salient_translation_error_detection/val_data.json",
+    "bytes": 378695,
+    "sha256": "c186d4825952226077b72b33283b4a9bf822f35a1e63ea53023f25ad7273f0f6"
+  },
+  {
+    "path": "bbh_all_small/sports_understanding/val_data.json",
+    "bytes": 165142,
+    "sha256": "bf891b6a73d49cac08e9347110d6a54fbf83decc2ab7e3b7d612b737380fe493"
+  },
+  {
+    "path": "bbh_all_small/tellmewhy/val_data.json",
+    "bytes": 676104,
+    "sha256": "7805e5f44f12761ada0285555a42611555d5167a5c37104f09764c8961d328f9"
+  },
+  {
+    "path": "bbh_all_small/vitaminc_fact_verification/val_data.json",
+    "bytes": 296428,
+    "sha256": "b52776c379f7c1aaf596e8517c842be6b4a04a65d43f138e0ba6445dc53e9bf8"
+  },
+  {
+    "path": "bbh_all_small/which_wiki_edit/val_data.json",
+    "bytes": 4828768,
+    "sha256": "4019643e35cabcb0cf3423ad4f11c3617736e16155cc594e487e53e55b412d1c"
+  }
+]

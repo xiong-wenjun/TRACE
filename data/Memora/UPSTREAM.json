@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/geniesinc/Memora",
+  "revision": "a6493188efc836d6511ed5e4163fe3ba87da30ff",
+  "download_kind": "github_archive",
+  "archive_url": "https://codeload.github.com/geniesinc/Memora/tar.gz/a6493188efc836d6511ed5e4163fe3ba87da30ff",
+  "license": "Apache-2.0",
+  "description": "Pinned complete data directory plus upstream README and license."
+}

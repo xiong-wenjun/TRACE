@@ -1,0 +1,77 @@
+{
+  "schema_version": "stale_type2_official_backend_a_qwen_terra_natural_middle_memstrata_memtx_dependency_v4",
+  "benchmark": "STALE-TypeII-Official-MAS-Return-Natural-Middle-DependencyV4-Qwen-MemStrata-MemTX",
+  "statistical_status": "formal_memstrata_memtx_shared_candidate_pool_natural_bucket",
+  "mas": {
+    "execution_contract": "five_task_agent_single_return_v1",
+    "task_agent_count": 5,
+    "returning_agent_id": "agent1",
+    "active_agent_ids": [
+      "agent2",
+      "agent3",
+      "agent4",
+      "agent5"
+    ],
+    "intra_episode_execution_mode": "deterministic_serial"
+  },
+  "dataset": {
+    "official_path": "data/stale/T1_T2_400_FULL.json",
+    "sidecar_path": "configs/shared/stale_type2_official_mas_return.json",
+    "official_records_modified": false,
+    "type": "T2",
+    "records": 64,
+    "natural_departure_bucket": {
+      "basis": "old_session_index",
+      "name": "middle",
+      "inclusive_range": [
+        5,
+        9
+      ]
+    }
+  },
+  "model": {
+    "api_base": "https://dashscope-us.aliyuncs.com/compatible-mode/v1",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "served_model_id": "Qwen3.5-122B-A10B",
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "judge": {
+    "api_base": "https://api.openai.com/v1",
+    "api_key_env": "OPENAI_API_KEY",
+    "served_model_id": "gpt-5.6-terra",
+    "json_response_format": true,
+    "model_timeout_seconds": 600,
+    "request_retries": 5
+  },
+  "embedding": {
+    "api_base": "https://dashscope-us.aliyuncs.com/compatible-mode/v1",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "served_model_id": "Qwen3-Embedding-8B",
+    "timeout_seconds": 180,
+    "request_retries": 3
+  },
+  "execution": {
+    "actor_structured_output_mode": "prompt_json",
+    "fork_arms": [
+      "memstrata",
+      "memtx"
+    ],
+    "workers": 1,
+    "extraction_chunk_max_chars": 70000,
+    "extraction_max_items_per_chunk": 32,
+    "extraction_max_tokens": 3072,
+    "governance_max_prompt_chars": 56000,
+    "governance_max_tokens": 6144,
+    "answer_max_tokens": 3072,
+    "judge_max_tokens": 2048,
+    "retrieval_top_k_per_query": 10,
+    "retrieval_max_union_items": 30,
+    "format_retries": 5,
+    "judge_format_retries": 2,
+    "model_timeout_seconds": 600,
+    "model_retries": 15,
+    "diagnostic_oracles": []
+  }
+}

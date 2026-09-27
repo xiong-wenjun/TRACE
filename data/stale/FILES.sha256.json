@@ -1,0 +1,22 @@
+[
+  {
+    "bytes": 18658,
+    "path": "LICENSE",
+    "sha256": "f5b745ef98087f531e719ee8ca6a96809444573ecc7173c6fa68eaad39b3cc3f"
+  },
+  {
+    "bytes": 1061,
+    "path": "LongMemEval_LICENSE",
+    "sha256": "0ec577719a69e112e75157b0dc5acfa68dd6c98bca6c5c830a036348c8a5987e"
+  },
+  {
+    "bytes": 1140,
+    "path": "README.md",
+    "sha256": "475c84cc2b745746895691ae95d9386bd30b1be584e9ba7562236a9c0f7b0a38"
+  },
+  {
+    "bytes": 305908212,
+    "path": "T1_T2_400_FULL.json",
+    "sha256": "5f3ec375179e20e2e94469e018189188f34e2e7e5f21cbecbd99fcfa648c1876"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "name": "CUPMem",
+  "source_repository": "https://github.com/icedreamc/STALE",
+  "source_commit": "ea7d391103a151927cd29d2f01d87597a782bdcb",
+  "archive_sha256": "487f62c416ed411fc73a05af952ea1d7cf3ae6f4c1e0374b60cdbfd027e91e45",
+  "license": "MIT",
+  "vendoring_policy": "unmodified_upstream_package",
+  "vendored_at_utc": "2026-08-26"
+}

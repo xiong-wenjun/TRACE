@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/agiresearch/A-mem",
+  "revision": "ceffb860f0712bbae97b184d440df62bc910ca8d",
+  "unmodified_sha256": {
+    "memory_system.py": "fa58c3ed405e37d298a3d11e5cd69459bc9709004461c0e01fc0c497c77c949b",
+    "retrievers.py": "a4cd9645b9df0774f7f67bdfff3cf4d1a41911b4bac3843208db2019b57e311d",
+    "llm_controller.py": "44e7d228326fe78dd8ecb8c8176364511547f5fef7cd7d58e433e883caeae0bb"
+  }
+}

@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use TRACE, please cite this software and the accompanying manuscript."
+title: "TRACE: Governing Memory Validity in Evolving Multi-Agent Systems"
+type: software
+version: 0.2.0
+repository-code: "https://github.com/xiong-wenjun/TRACE"
+url: "https://github.com/xiong-wenjun/TRACE"
+license: MIT
+keywords:
+  - multi-agent systems
+  - memory governance
+  - temporal validity
+  - provenance
+authors:
+  - family-names: Xiong
+    given-names: Wenjun
+    email: xiongwenjun@sjtu.edu.cn
+  - family-names: Zhang
+    given-names: Shengtao
+    affiliation: Shanghai Jiao Tong University
+  - family-names: Gu
+    given-names: Shangding
+  - family-names: Tang
+    given-names: Bo
+  - family-names: Li
+    given-names: Zhiyu
+  - family-names: Xiong
+    given-names: Feiyu
+  - family-names: Wen
+    given-names: Ying
+    email: ying.wen@sjtu.edu.cn
+  - family-names: Wen
+    given-names: Muning
+    email: muningwen@sjtu.edu.cn

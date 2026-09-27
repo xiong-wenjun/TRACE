@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trace"
+version = "0.2.0"
+description = "Governed workstate readmission for returning LLM agents"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/xiong-wenjun/TRACE"
+Issues = "https://github.com/xiong-wenjun/TRACE/issues"
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+cupmem = ["openai>=1.0.0", "httpx>=0.24.0"]
+# Compatibility extra for previously documented install commands.
+cupmem-full = ["openai>=1.0.0", "httpx>=0.24.0"]
+mem0 = ["mem0ai==2.0.19"]
+amem = ["chromadb==1.0.21", "nltk>=3.9,<4"]
+# Memobase is consumed through its versioned REST API because its current
+# Python client requires Python >=3.11 while this benchmark supports 3.10.
+memory-backends = ["mem0ai==2.0.19", "chromadb==1.0.21", "nltk>=3.9,<4"]
+# Figure regeneration for paper/figures/.
+figures = ["matplotlib>=3.7", "numpy>=1.24"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+
+[tool.setuptools.package-data]
+"trace.vendor.amem_official" = ["LICENSE", "UPSTREAM.json", "ADAPTER_NOTES.md"]

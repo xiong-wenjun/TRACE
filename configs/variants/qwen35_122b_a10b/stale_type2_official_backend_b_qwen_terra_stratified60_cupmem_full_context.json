@@ -1,0 +1,93 @@
+{
+  "schema_version": "stale_type2_official_qwen_cupmem_full_context_budget_v2",
+  "benchmark": "STALE-TypeII-Official-MAS-Return-Stratified60-Qwen-CUPMem-Context-v2",
+  "statistical_status": "preregistered_stratified_subset_20_20_20",
+  "mas": {
+    "execution_contract": "five_task_agent_single_return_v1",
+    "task_agent_count": 5,
+    "returning_agent_id": "agent1",
+    "active_agent_ids": [
+      "agent2",
+      "agent3",
+      "agent4",
+      "agent5"
+    ],
+    "intra_episode_execution_mode": "deterministic_serial"
+  },
+  "dataset": {
+    "official_path": "data/stale/T1_T2_400_FULL.json",
+    "sidecar_path": "configs/shared/stale_type2_official_mas_return.json",
+    "selection_manifest_path": "configs/shared/stale_type2_stratified_subset_seed20260826_n60.json",
+    "official_records_modified": false,
+    "type": "T2",
+    "records": 60
+  },
+  "model": {
+    "api_base": "https://dashscope-us.aliyuncs.com/compatible-mode/v1",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "served_model_id": "Qwen3.5-122B-A10B",
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "judge": {
+    "api_base": "https://api.openai.com/v1",
+    "api_key_env": "OPENAI_API_KEY",
+    "served_model_id": "gpt-5.6-terra",
+    "json_response_format": true,
+    "model_timeout_seconds": 600,
+    "request_retries": 5
+  },
+  "embedding": {
+    "api_base": "https://dashscope-us.aliyuncs.com/compatible-mode/v1",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "served_model_id": "Qwen3-Embedding-8B",
+    "timeout_seconds": 180,
+    "request_retries": 3
+  },
+  "execution": {
+    "actor_structured_output_mode": "prompt_json",
+    "fork_arms": [
+      "static_no_churn",
+      "memstrata",
+      "memtx",
+      "trace"
+    ],
+    "actor_request_lock_path": "/dev/shm/qwen_stale_stratified60_cupmem_full_backend_b_context_v2.lock",
+    "judge_request_lock_path": "/dev/shm/stale_stratified60_terra_judge.lock",
+    "workers": 1,
+    "extraction_chunk_max_chars": 70000,
+    "extraction_max_items_per_chunk": 32,
+    "extraction_max_tokens": 3072,
+    "governance_max_prompt_chars": 56000,
+    "governance_max_tokens": 6144,
+    "trace_dependency_mode": "session_observation_two_stage_scan_v2",
+    "trace_dependency_target_batch_size": 1,
+    "trace_dependency_max_prompt_chars": 24000,
+    "trace_dependency_scan_max_tokens": 512,
+    "trace_dependency_later_items_per_chunk": 4,
+    "trace_dependency_verification_max_tokens": 512,
+    "trace_retrieval_mode": "expand_invalidators_v1",
+    "answer_max_tokens": 3072,
+    "judge_max_tokens": 2048,
+    "retrieval_top_k_per_query": 10,
+    "retrieval_max_union_items": 30,
+    "format_retries": 5,
+    "judge_format_retries": 2,
+    "model_timeout_seconds": 600,
+    "model_retries": 15,
+    "cupmem_full_context_budget_adapter": "context_budget_v2",
+    "cupmem_full_context_window_tokens": 32768,
+    "cupmem_full_default_max_tokens": 3072,
+    "cupmem_full_context_reserve_tokens": 512,
+    "cupmem_full_min_output_tokens": 512,
+    "cupmem_full_adaptive_context_retry": true,
+    "cupmem_full_session_max_chars": 12000,
+    "cupmem_full_min_session_chars": 3000,
+    "cupmem_full_adaptive_session_bisection": true,
+    "cupmem_full_episode_transient_retries": 2,
+    "embedding_batch_size": 32,
+    "embedding_max_chars": 12000,
+    "diagnostic_oracles": []
+  }
+}

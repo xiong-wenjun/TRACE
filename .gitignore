@@ -1,0 +1,60 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.venv-evalplus/
+.DS_Store
+.AppleDouble
+._*
+.__*
+.env
+.env.*
+!.env.example
+.secrets/
+
+# Local/private benchmark material.
+/data/private/
+
+# Raw model artifacts are local. Only the policy file and an explicitly
+# frozen retention manifest may be committed.
+/results/**
+!/results/README.md
+!/results/formal/
+/results/formal/**
+!/results/formal/RETENTION_MANIFEST.json
+
+# Generated human-review packets. The protocol is documented; the packets
+# themselves are produced on demand by scripts/evaluation/.
+/paper/human_review/
+
+# Downloaded models, upstream repositories, and runtime state.
+# These are anchored to the repository root on purpose: an unanchored
+# `models/` also matches src/trace/vendor/cupmem_official/models/, which is
+# part of the commit-pinned upstream tree and must stay tracked.
+/models/
+# Downloaded upstream checkouts and large benchmark inputs.
+/external/
+/data/stale/T1_T2_400_FULL.json
+/data/stale/RETURN_PROJECTION_RECEIPT.md
+/data/Memora/data/
+/data/vendor/
+*.egg-info/
+build/
+dist/
+/logs/
+/run/
+/MacNetLog/
+/private/
+
+# Historical benchmark trees outside the TRACE paper scope.
+/experiments/
+/third_party/
+/data/actor_visible/
+/data/*_snapshot_manifest.json
+/data/longmemeval_shared_retrieval/
+/data/return_benchmarks/
+/data/.embeddings_cache/
+
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm

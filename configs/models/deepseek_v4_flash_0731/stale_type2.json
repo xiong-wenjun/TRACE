@@ -1,0 +1,92 @@
+{
+  "schema_version": "stale_type2_deepseekv4flash0731_terra_early_four_core_dependency_v6_transport_fallback",
+  "benchmark": "STALE-TypeII-Official-MAS-Return-Natural-EARLY-DeepSeekV4Flash0731-FourCore-V6",
+  "statistical_status": "formal_four_core_shared_candidate_pool_natural_bucket",
+  "mas": {
+    "execution_contract": "five_task_agent_single_return_v1",
+    "task_agent_count": 5,
+    "returning_agent_id": "agent1",
+    "active_agent_ids": [
+      "agent2",
+      "agent3",
+      "agent4",
+      "agent5"
+    ],
+    "intra_episode_execution_mode": "deterministic_serial"
+  },
+  "dataset": {
+    "official_path": "data/stale/T1_T2_400_FULL.json",
+    "sidecar_path": "configs/shared/stale_type2_official_mas_return.json",
+    "official_records_modified": false,
+    "type": "T2",
+    "records": 64,
+    "natural_departure_bucket": {
+      "basis": "old_session_index",
+      "name": "early",
+      "inclusive_range": [
+        0,
+        4
+      ]
+    }
+  },
+  "model": {
+    "api_base": "https://api.deepseek.com",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "served_model_id": "deepseek-v4-flash-0731",
+    "model_timeout_seconds": 600,
+    "request_retries": 5,
+    "empty_content_retries": 5,
+    "omit_temperature": true,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "forced_tool_fallback_mode": "validated_content_then_prompt_json"
+  },
+  "judge": {
+    "api_base": "https://api.openai.com/v1",
+    "api_key_env": "OPENAI_API_KEY",
+    "served_model_id": "gpt-5.6-terra",
+    "json_response_format": true,
+    "model_timeout_seconds": 600,
+    "request_retries": 5
+  },
+  "embedding": {
+    "api_base": "https://dashscope-us.aliyuncs.com/compatible-mode/v1",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "served_model_id": "Qwen3-Embedding-8B",
+    "timeout_seconds": 180,
+    "request_retries": 3
+  },
+  "execution": {
+    "actor_structured_output_mode": "forced_tool",
+    "structured_output_transport": "forced_tool_then_schema_validated_content_then_prompt_json_v1",
+    "fork_arms": [
+      "static_no_churn",
+      "restore_old",
+      "reset",
+      "trace"
+    ],
+    "workers": 1,
+    "extraction_chunk_max_chars": 24000,
+    "extraction_max_items_per_chunk": 16,
+    "extraction_max_tokens": 4096,
+    "governance_max_prompt_chars": 32000,
+    "governance_max_tokens": 8192,
+    "trace_dependency_mode": "session_observation_two_stage_scan_v2",
+    "trace_dependency_target_batch_size": 1,
+    "trace_dependency_max_prompt_chars": 24000,
+    "trace_dependency_scan_max_tokens": 512,
+    "trace_dependency_later_items_per_chunk": 4,
+    "trace_dependency_verification_max_tokens": 512,
+    "trace_retrieval_mode": "expand_invalidators_v1",
+    "answer_max_tokens": 4096,
+    "judge_max_tokens": 3072,
+    "retrieval_top_k_per_query": 10,
+    "retrieval_max_union_items": 30,
+    "format_retries": 6,
+    "judge_format_retries": 5,
+    "model_timeout_seconds": 600,
+    "model_retries": 15,
+    "diagnostic_oracles": []
+  }
+}
