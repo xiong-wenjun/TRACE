@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use TRACE, please cite this software and the accompanying manuscript."
+message: "If you use TRACE in your research, please cite the paper listed in preferred-citation."
 title: "TRACE: Governing Memory Validity in Evolving Multi-Agent Systems"
 type: software
 version: 0.2.0
@@ -32,3 +32,28 @@ authors:
   - family-names: Wen
     given-names: Muning
     email: muningwen@sjtu.edu.cn
+preferred-citation:
+  type: article
+  title: "TRACE: Governing Memory Validity in Evolving Multi-Agent Systems"
+  authors:
+    - family-names: Xiong
+      given-names: Wenjun
+    - family-names: Zhang
+      given-names: Shengtao
+    - family-names: Gu
+      given-names: Shangding
+    - family-names: Tang
+      given-names: Bo
+    - family-names: Li
+      given-names: Zhiyu
+    - family-names: Xiong
+      given-names: Feiyu
+    - family-names: Wen
+      given-names: Ying
+    - family-names: Wen
+      given-names: Muning
+  year: 2026
+  journal: arXiv
+  status: preprint
+  doi: "10.48550/arXiv.2609.33517"
+  url: "https://arxiv.org/abs/2609.33517"

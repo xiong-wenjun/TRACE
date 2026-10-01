@@ -1,10 +1,14 @@
 # TRACE: Governing Memory Validity in Evolving Multi-Agent Systems
 
+[![arXiv](https://img.shields.io/badge/arXiv-2609.33517-b31b1b.svg)](https://arxiv.org/abs/2609.33517)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Code for **TRACE**, a memory-governance method for agents returning to an
 evolving multi-agent system.
+
+**Paper:** [arXiv:2609.33517](https://arxiv.org/abs/2609.33517) |
+[PDF](https://arxiv.org/pdf/2609.33517)
 
 **Wenjun Xiong, Shengtao Zhang, Shangding Gu, Bo Tang, Zhiyu Li, Feiyu Xiong,
 Ying Wen, Muning Wen**
@@ -208,17 +212,24 @@ licenses and commit provenance under [src/trace/vendor/](src/trace/vendor/).
 
 ## Citation
 
+If you use TRACE in your research, please cite our paper:
+
 ```bibtex
 @misc{xiong2026trace,
-  title  = {TRACE: Governing Memory Validity in Evolving Multi-Agent Systems},
-  author = {Wenjun Xiong and Shengtao Zhang and Shangding Gu and Bo Tang and
-            Zhiyu Li and Feiyu Xiong and Ying Wen and Muning Wen},
-  year   = {2026},
-  url    = {https://github.com/xiong-wenjun/TRACE}
+  title         = {{TRACE}: Governing Memory Validity in Evolving Multi-Agent Systems},
+  author        = {Wenjun Xiong and Shengtao Zhang and Shangding Gu and Bo Tang and
+                   Zhiyu Li and Feiyu Xiong and Ying Wen and Muning Wen},
+  year          = {2026},
+  eprint        = {2609.33517},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.MA},
+  doi           = {10.48550/arXiv.2609.33517},
+  url           = {https://arxiv.org/abs/2609.33517}
 }
 ```
 
-Machine-readable software citation metadata is available in [CITATION.cff](CITATION.cff).
+Machine-readable software and paper citation metadata is available in
+[CITATION.cff](CITATION.cff).
 
 ## License
 
